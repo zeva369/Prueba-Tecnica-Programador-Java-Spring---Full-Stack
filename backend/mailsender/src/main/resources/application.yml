@@ -1,0 +1,22 @@
+spring:
+    application:
+        name: 'mailsender'
+
+    data:
+        mongodb:
+            #username: test
+            #password: passwordvalue
+            host: localhost
+            port: 27017
+            database: mailsender
+            #uri: mongodb://localhost:27017/mailsender
+
+server:
+    port: 8080
+    servlet:
+        context-path: /mail-sender/api/v1
+
+# mailsender:
+#     openapi.dev-url:  http://localhost:8080/
+#     openapi.prod-url: http://localhost:8080/
+
